@@ -1,0 +1,42 @@
+{
+	"nav": {
+		"about": "À propos",
+		"projects": "Projets",
+		"skills": "Compétences",
+		"experience": "Expérience",
+		"contact": "Contact"
+	},
+	"hero": {
+		"title": "Manuel Tomás",
+		"subtitle": "Développeur Full Stack",
+		"description": "Passionné par la création de solutions web innovantes et efficaces. Spécialisé en React, Node.js et design responsive."
+	},
+	"sections": {
+		"projects": "Projets",
+		"skills": "Compétences",
+		"experience": "Expérience Professionnelle",
+		"contact": "Contact"
+	},
+	"project": {
+		"viewGithub": "Voir sur GitHub",
+		"viewProject": "Voir le Projet"
+	},
+	"contact": {
+		"name": "Nom",
+		"email": "Email",
+		"message": "Message",
+		"send": "Envoyer le Message",
+		"success": "Message envoyé avec succès !",
+		"error": "Erreur lors de l'envoi du message. Veuillez réessayer."
+	},
+	"errors": {
+		"notFoundTitle": "Page Not Found",
+		"notFoundDescription": "Oops! The page you're looking for doesn't exist.",
+		"backToHome": "Back to Home",
+		"serverErrorTitle": "Internal Server Error",
+		"serverErrorDescription": "Something went wrong on our end. We're working to fix it.",
+		"tryAgain": "Try Again",
+		"globalErrorTitle": "Something Went Wrong",
+		"globalErrorDescription": "We've encountered an unexpected error. Please try again."
+	}
+}
