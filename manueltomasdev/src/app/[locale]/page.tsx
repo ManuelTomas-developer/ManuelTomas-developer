@@ -15,6 +15,7 @@ import { useTranslations } from 'next-intl'
 import SEO from '@/components/seo'
 import manuel from "../../../public/assets/manuel.png"
 import Meteors from '@/components/ui/meteors'
+// import { unstable_setRequestLocale } from 'next-intl/server';
 
 
 type projectsType = {

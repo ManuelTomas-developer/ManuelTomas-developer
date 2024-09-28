@@ -9,6 +9,7 @@ import { notFound } from 'next/navigation'
 import { Suspense } from 'react'
 import SchemaOrg from '@/components/schema-org'
 import Analytics from '@/components/google-analytics'
+import { unstable_setRequestLocale } from 'next-intl/server';
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -37,6 +38,7 @@ export default async function RootLayout({
   } catch (error) {
     notFound();
   }
+  unstable_setRequestLocale(locale);
 
   return (
     <html lang={locale} suppressHydrationWarning className={inter.className}>
