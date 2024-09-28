@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { cn } from "@/lib/utils";
 
 interface MarqueeProps {
@@ -7,6 +8,8 @@ interface MarqueeProps {
   children?: React.ReactNode;
   vertical?: boolean;
   repeat?: number;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  // biome-ignore lint/suspicious/noExplicitAny: <explanation>
   [key: string]: any;
 }
 
@@ -35,6 +38,7 @@ export default function Marquee({
         .fill(0)
         .map((_, i) => (
           <div
+            // biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
             key={i}
             className={cn("flex shrink-0 justify-around [gap:var(--gap)]", {
               "animate-marquee flex-row": !vertical,
